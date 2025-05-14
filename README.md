@@ -15,13 +15,13 @@ Follow these steps to set up the JoyCaption GUI Mod on your system:
     ```
     Activate the environment:
     *   **Windows (CMD/PowerShell):**
-        ```cmd
+       
         venv\Scripts\activate
-        ```
+        
     *   **macOS/Linux (Bash/Zsh):**
-        ```bash
+        
         source venv/bin/activate
-        ```
+      
 3.  **Install Triton (for Windows, Python 3.10/3.11):**
     Triton can offer performance benefits. The provided wheel is for specific Python versions on Windows.
     *   **For Python 3.10 on Windows:**
