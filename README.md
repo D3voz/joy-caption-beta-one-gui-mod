@@ -45,6 +45,7 @@ Follow these steps to set up the JoyCaption GUI Mod on your system:
 
 1.  Ensure your virtual environment is activated
 2.  python Run_GUI.py
+3.  Or python Run_gui_4bit.py for 4-bit version
 
 
 ##Side note
