@@ -10,7 +10,7 @@ Follow these steps to set up the JoyCaption GUI Mod on your system:
     ```
 2.  **Create and Activate a Virtual Environment (Recommended):**
 
-    # For Python 3.10 (adjust if your default Python is different or use 'python3.10 -m venv venv')
+    # For Python 3.10 (adjust if your default Python is different or use 'python3.10 -m venv venv' or 'py -3.10 -m venv venv')
     python -m venv venv
     ```
     Activate the environment:
