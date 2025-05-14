@@ -1,4 +1,4 @@
-Vram usage- 17.4 GB
+Vram usage- 17.4 GB For full load, 10 gb for 4-bit
 
 ## Installation
 
