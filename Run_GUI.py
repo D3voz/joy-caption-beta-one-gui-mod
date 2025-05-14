@@ -840,7 +840,8 @@ class CaptionApp(QMainWindow):
                 caption_text_to_display = self.captions_cache[image_path_str]
                 # print(f"Loaded caption for {image_path_str} from cache.") # Debug
             else:
-                caption_file_path = self.current_image_path.with_suffix(self.current_image_path.suffix + ".txt")
+                # MODIFIED LINE
+                caption_file_path = self.current_image_path.with_suffix(".txt")
                 if caption_file_path.exists():
                     try:
                         with open(caption_file_path, "r", encoding="utf-8") as f:
@@ -1132,7 +1133,8 @@ class CaptionApp(QMainWindow):
         image_path_str = str(self.current_image_path)
         self.captions_cache[image_path_str] = caption_text 
 
-        caption_file_path = self.current_image_path.with_suffix(self.current_image_path.suffix + ".txt")
+        # MODIFIED LINE
+        caption_file_path = self.current_image_path.with_suffix(".txt")
         try:
             with open(caption_file_path, "w", encoding="utf-8") as f:
                 f.write(caption_text)
@@ -1161,7 +1163,8 @@ class CaptionApp(QMainWindow):
         for image_path_str, caption_text in self.captions_cache.items():
             try:
                 image_path = Path(image_path_str)
-                caption_file_path = image_path.with_suffix(image_path.suffix + ".txt")
+                # MODIFIED LINE
+                caption_file_path = image_path.with_suffix(".txt")
                 with open(caption_file_path, "w", encoding="utf-8") as f:
                     f.write(caption_text)
                 saved_count += 1
