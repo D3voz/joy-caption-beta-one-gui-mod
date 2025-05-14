@@ -1,3 +1,5 @@
+Vram usage- 17.4 GB
+
 ## Installation
 
 Follow these steps to set up the JoyCaption GUI Mod on your system:
